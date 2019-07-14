@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static MegaDeskProject_1.Desk;
 
 namespace MegaDeskProject_1
 {
@@ -15,6 +16,8 @@ namespace MegaDeskProject_1
         public AddQuote()
         {
             InitializeComponent();
+            cmbxSurfaceMaterial.DataSource = Enum.GetValues(typeof(DesktopMaterial));
+
         }
 
 
@@ -29,6 +32,11 @@ namespace MegaDeskProject_1
             viewDisplayQuotes.Tag = this;
             viewDisplayQuotes.Show(this);
             //this.Hide()
+        }
+
+        private void CmbxSurfaceMaterial_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

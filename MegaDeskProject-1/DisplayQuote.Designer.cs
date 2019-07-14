@@ -34,7 +34,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.BtnExit = new System.Windows.Forms.Button();
             this.SurfaceMaterialTextBox = new System.Windows.Forms.TextBox();
-            this.FullNameTextBox = new System.Windows.Forms.TextBox();
+            this.TxtFullName = new System.Windows.Forms.TextBox();
             this.RushOrderLabel = new System.Windows.Forms.Label();
             this.SurfaceMaterialLabel = new System.Windows.Forms.Label();
             this.DrawerNumberLabel = new System.Windows.Forms.Label();
@@ -100,14 +100,14 @@
             this.SurfaceMaterialTextBox.Size = new System.Drawing.Size(219, 30);
             this.SurfaceMaterialTextBox.TabIndex = 41;
             // 
-            // FullNameTextBox
+            // TxtFullName
             // 
-            this.FullNameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FullNameTextBox.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.FullNameTextBox.Location = new System.Drawing.Point(265, 57);
-            this.FullNameTextBox.Name = "FullNameTextBox";
-            this.FullNameTextBox.Size = new System.Drawing.Size(231, 30);
-            this.FullNameTextBox.TabIndex = 40;
+            this.TxtFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtFullName.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.TxtFullName.Location = new System.Drawing.Point(265, 57);
+            this.TxtFullName.Name = "TxtFullName";
+            this.TxtFullName.Size = new System.Drawing.Size(231, 30);
+            this.TxtFullName.TabIndex = 40;
             // 
             // RushOrderLabel
             // 
@@ -169,7 +169,7 @@
             this.NameLabel.TabIndex = 34;
             this.NameLabel.Text = "Customer Name:";
             // 
-            // DisplayQuotes
+            // DisplayQuote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -180,14 +180,14 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.BtnExit);
             this.Controls.Add(this.SurfaceMaterialTextBox);
-            this.Controls.Add(this.FullNameTextBox);
+            this.Controls.Add(this.TxtFullName);
             this.Controls.Add(this.RushOrderLabel);
             this.Controls.Add(this.SurfaceMaterialLabel);
             this.Controls.Add(this.DrawerNumberLabel);
             this.Controls.Add(this.DeskDepthLabel);
             this.Controls.Add(this.WidthLabel);
             this.Controls.Add(this.NameLabel);
-            this.Name = "DisplayQuotes";
+            this.Name = "DisplayQuote";
             this.Text = "DisplayQuotes";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
@@ -205,7 +205,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button BtnExit;
         private System.Windows.Forms.TextBox SurfaceMaterialTextBox;
-        private System.Windows.Forms.TextBox FullNameTextBox;
+        private System.Windows.Forms.TextBox TxtFullName;
         private System.Windows.Forms.Label RushOrderLabel;
         private System.Windows.Forms.Label SurfaceMaterialLabel;
         private System.Windows.Forms.Label DrawerNumberLabel;

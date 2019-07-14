@@ -15,6 +15,8 @@ namespace MegaDeskProject_1
         public DisplayQuote()
         {
             InitializeComponent();
+          
+
         }
 
         private void ExitButton_Click(object sender, EventArgs e)

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static MegaDeskProject_1.Desk;
 
 namespace MegaDeskProject_1
 {
@@ -15,6 +16,7 @@ namespace MegaDeskProject_1
         public SeachQuotes()
         {
             InitializeComponent();
+            cmbxSurfaceMaterial.DataSource = Enum.GetValues(typeof(DesktopMaterial));
         }
 
         private void ExitButton_Click(object sender, EventArgs e)

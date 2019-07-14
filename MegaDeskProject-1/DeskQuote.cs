@@ -8,5 +8,13 @@ namespace MegaDeskProject_1
 {
     class DeskQuote
     {
+        Desk Desk;
+        public decimal rushDays;
+        public string customerName;
+        public DateTime quoteDate;
+
+       
+
+
     }
 }
