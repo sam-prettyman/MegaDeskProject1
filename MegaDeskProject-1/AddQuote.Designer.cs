@@ -71,7 +71,7 @@
             // 
             this.DrawerNumberLabel.Cursor = System.Windows.Forms.Cursors.No;
             this.DrawerNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DrawerNumberLabel.Location = new System.Drawing.Point(264, 96);
+            this.DrawerNumberLabel.Location = new System.Drawing.Point(270, 95);
             this.DrawerNumberLabel.Name = "DrawerNumberLabel";
             this.DrawerNumberLabel.Size = new System.Drawing.Size(264, 30);
             this.DrawerNumberLabel.TabIndex = 4;
